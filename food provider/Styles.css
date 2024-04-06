@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #f0edf8;
+}
+
+
+/* Header styles */
+header {
+    background-color: #33333300;
+    color: #e7e7e8;
+    padding: 20px;
+    text-align: center;
+}
+html,body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  main{
+      overflow-x: hidden;
+      background: url("C:\Users\Udhaya\Desktop\food provider");
+      background-size: cover;
+      background-repeat: no-repeat; 
+      
+      scroll-behavior: smooth;
+  }
+
+
+.container {
+    width: 300px;
+    height: 200px;
+    background-image: url('C:\Users\Udhaya\Desktop\food provider');
+    background: size 5px; /* Adjust as needed */
+    background-position: 10px; /* Adjust as needed */
+}
+ 
+  
+  #main video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+  
+  }
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #edf7ef;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Widget styles */
+.widget {
+    background-image: rgb(177, 148, 148) url(./1f8c196f70fc698ac5360d56286e0bec.jpg) no-repeat center center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 0 0 calc(50% - 40px); /* Two widgets per row with some margin */
+}
+
+/* Footer styles */
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
